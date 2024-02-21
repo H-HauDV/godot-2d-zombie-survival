@@ -1,0 +1,60 @@
+[gd_scene load_steps=4 format=3 uid="uid://laletqkm6l0j"]
+
+[ext_resource type="PackedScene" uid="uid://cywqbjcw2gbm1" path="res://player.tscn" id="1_2e1is"]
+[ext_resource type="PackedScene" uid="uid://cj1c0ro57v3dt" path="res://mob.tscn" id="2_7psku"]
+[ext_resource type="PackedScene" uid="uid://dbvkdvca6lheq" path="res://pine_tree.tscn" id="2_ljo4h"]
+
+[node name="scene_1" type="Node2D"]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1923.0
+offset_bottom = 1076.0
+
+[node name="Player" parent="." instance=ExtResource("1_2e1is")]
+position = Vector2(972, 531)
+
+[node name="Mob" parent="." instance=ExtResource("2_7psku")]
+position = Vector2(532, 371)
+
+[node name="Mob2" parent="." instance=ExtResource("2_7psku")]
+position = Vector2(1060, 343)
+
+[node name="Mob3" parent="." instance=ExtResource("2_7psku")]
+position = Vector2(1243, 739)
+
+[node name="Mob4" parent="." instance=ExtResource("2_7psku")]
+position = Vector2(749, 473)
+
+[node name="Mob5" parent="." instance=ExtResource("2_7psku")]
+position = Vector2(1352, 538)
+
+[node name="Mob6" parent="." instance=ExtResource("2_7psku")]
+position = Vector2(874, 761)
+
+[node name="PineTree" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(382, 560)
+
+[node name="PineTree2" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(1390, 304)
+
+[node name="PineTree3" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(1472, 827)
+
+[node name="PineTree4" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(1299, 339)
+
+[node name="PineTree5" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(1390, 396)
+
+[node name="PineTree6" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(734, 279)
+
+[node name="PineTree7" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(597, 912)
+
+[node name="PineTree8" parent="." instance=ExtResource("2_ljo4h")]
+position = Vector2(1636, 561)
