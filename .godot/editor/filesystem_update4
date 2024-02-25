@@ -1,7 +1,10 @@
-res://mob.tscn
-res://mob.gd
+res://scene_1.gd
+res://scene_1.tscn
 res://player.tscn
 res://characters/happy_boo/happy_boo.tscn
-res://scene_1.tscn
 res://pine_tree.tscn
+res://mob.tscn
 res://characters/slime/slime.tscn
+res://gun.tscn
+res://bullet.tscn
+res://menu.tscn
